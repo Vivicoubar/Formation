@@ -1,0 +1,17 @@
+name: test
+main: fr.vivicoubar.test.TestMain
+version: 1.00
+prefix: "TEST"
+commands:
+  hello:
+    description: Cette commande affiche hello
+    permission: test.hello
+    permission-message: "Tu n'as pas la permission d'utiliser cette commande"
+  question:
+    description: Cette commande pose une question
+    permission: question.send
+    permission-message: "Tu n'as pas la permission d'utiliser cette commande"
+  anagram:
+    description: Cette commande pose une question
+    permission: anagram.send
+    permission-message: "Tu n'as pas la permission d'utiliser cette commande"

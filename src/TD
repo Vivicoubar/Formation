@@ -1,0 +1,8 @@
+Créer une liste de mot au chargement du plugin
+Ensuite quand le joueur fait /anagram:
+- 1) Choisir dans la liste déjà faire un anagramme aléatoirement
+- 2) Le mettre en actif (setActive(true))
+Envoyer dans le chat
+1) Vérifier si l'anagramme est actif ET que la réponse est la bonne
+if(condition1 && condition2)
+Attendre la réponse...
